@@ -1,0 +1,85 @@
+{
+  "postDataToAttributes": {
+    "description": "desc",
+    "examples": {
+      "postDataToAttributes": {
+        "paramSet": {
+          "name": "John",
+          "value": "fish"
+        },
+        "expectedResults": {
+          "result": {
+            "name": "John",
+            "value": "fish"
+          }
+        }
+      }
+    },
+    "rest": {
+      "path": "path/to/service",
+      "queryParams": ["name", "age"],
+      "method": "POST"
+    }
+  },
+  "getDataFromAttributes": {
+    "description": "desc",
+    "examples": {
+      "getDataFromAttributes": {
+        "paramSet": {
+          "name": "John"
+        },
+        "expectedResults": {
+          "result": {
+            "name": "John",
+            "value": ["fish"]
+          }
+        }
+      }
+    },
+    "rest": {
+      "path": "path/to/service",
+      "method": "GET"
+    }
+  },
+  "deleteDataFromAttributes": {
+    "description": "desc",
+    "examples": {
+      "deleteDataFromAttributes": {
+        "paramSet": {
+          "names": ["John"]
+        },
+        "expectedResults": {
+          "result": {
+            "names": ["John"],
+            "value": ["fish"]
+          }
+        }
+      }
+    },
+    "rest": {
+      "path": "path/to/service",
+      "method": "DELETE"
+    }
+  },
+  "updateDataInAttributes": {
+    "description": "desc",
+    "examples": {
+      "updateDataInAttributes": {
+        "paramSet": {
+          "name": "John",
+          "value": ["fish"]
+        },
+        "expectedResults": {
+          "result": {
+            "names": "John",
+            "value": ["fish"]
+          }
+        }
+      }
+    },
+    "rest": {
+      "path": "path/to/service",
+      "method": "PUT"
+    }
+  }
+}

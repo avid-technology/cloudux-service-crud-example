@@ -1,0 +1,20 @@
+{
+  "name": "cloudux-service-crud-example",
+  "version": "1.0.0",
+  "description": "Crud example for cloudux",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "proxy-bal": "file:proxy-bal.tar",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}

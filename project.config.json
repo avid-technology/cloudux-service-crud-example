@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "serviceName": "cloudux-service-crud-example",
+    "appID": "",
+    "appSecret": "",
+    "description": "Crud example for cloudux",
+    "realm": "global",
+    "version": 18,
+    "build": "1"
+  },
+  "signing": {
+    "login": "",
+    "developerID": "",
+    "organization": "",
+    "privateKeyPath": ""
+  },
+  "connection": {
+    "hostIp": "10.42.24.26"
+  }
+}

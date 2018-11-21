@@ -1,0 +1,23 @@
+{
+  "getPerson": {
+    "description": "desc",
+    "examples": {
+      "getData": {
+        "paramSet": {
+          "name": null,
+          "age": null
+        },
+        "expectedResults": {
+          "result": {
+            "name": "John",
+            "age": 25
+          }
+        }
+      }
+    },
+    "rest": {
+      "path": "path/to/service",
+      "method": "GET"
+    }
+  }
+}
